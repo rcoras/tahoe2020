@@ -12,7 +12,11 @@
     grid-auto-flow: dense;
 }
 
-.horizontal {
+img {
+  
+}
+
+/* .horizontal {
     grid-column: span 2;
     grid-row: span 2;
 }
@@ -29,7 +33,7 @@
 .each {
   position: absolute;
   z-index: 1;
-}
+} */
 
 p {
   display: none;
