@@ -1,4 +1,4 @@
-.container > div {
+/* .container > div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,36 +15,56 @@
 html, body {
     background-color: #659DBD;
     margin: 10px;
-}
+} */
 
 
-.header {
+/* .header {
   color: #000000;
   font-family: serif;
   text-align: center;
-  grid-column: 1 / -1;
-}
+} */
 
-.footer {
+/* .footer {
   font-family: serif;
   grid-column: 1 / -1;
   text-align: right;
   position: fixed;
   bottom: 25px;
+} */
+
+body {
+  background-color: #659DBD;
+  color: #8D8741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 2em; */
 }
 
 .container {
-    display: grid;
+  margin: 10px 50px;
+  display: flex;
+    /* display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(550px, 2fr));
     grid-auto-rows: 375px;
-    grid-auto-flow: dense;
+    grid-auto-flow: dense; */
 }
 
-img:hover {
+.container > div {
+  flex: 1;
+}
+
+img {
+  transition: 1s;
+  padding: 15px;
+  width: 1000px;
+}
+
+/* img:hover {
   transform: scale(1.1);
-}
-
+} */
+/*
 .horizontal {
     grid-column: span 3;
     grid-row: span 3;
@@ -58,7 +78,7 @@ img:hover {
 .big {
     grid-column: span 4;
     grid-row: span 4;
-}
+} */
 
 /* .each {
   position: absolute;
